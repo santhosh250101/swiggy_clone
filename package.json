@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start" : "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",

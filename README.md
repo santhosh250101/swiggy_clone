@@ -87,3 +87,19 @@ npm is the world's largest software registry. Open source developers from every 
     13. Different dev and prod bundle
     14.
 ##
+
+##
+Episode 3
+
+    TODO: know more abt babel.
+    1. JSX and react both are different
+    2. JSX is not html, it is html like syntax
+    3. js engine doesn't understand jsx, but how it is working. here parcel is taking care how?
+        -> jsx code is transpiled before it reached js engine.parcel gives this tranpilation responsibility to babel.
+    4. basically babel is a js compiler
+    5. here babel is converting jsx to react code
+        i.e jsx->React.createEleemnt()
+
+    6. jsx attributes are camelCase like(className)
+    7. 
+##
