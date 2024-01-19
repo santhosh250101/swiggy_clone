@@ -1,4 +1,5 @@
 # NPM
+
 npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
 
 ##
@@ -40,10 +41,10 @@ npm is the world's largest software registry. Open source developers from every 
         suppose in package.json we gave ~2.8.0
         after some days we got latest version say 2.8.4 now package-lock.json has 2.8.4 and package.json has ~2.8.0 only.
 
-    
+
     6. integrity in package-lock.json
         // TODO: know more abt this.
-    
+
     7. node_modules conists of code that is     fetched by npm
 
     8. should we commit package.json and package-lock.json to git?
@@ -51,10 +52,10 @@ npm is the world's largest software registry. Open source developers from every 
 
         just do npm install, it will install node_modules based on package and package-lock.json
 
-    
-## 
+##
 
 ##
+
     EPISODE 2
     1.npx parcel index.html
     npx means execute, we are execute parcel by building index.html as source and host on server(1234)
@@ -66,11 +67,12 @@ npm is the world's largest software registry. Open source developers from every 
 
     4. npx parcel build index.html to get prod build
         -> in dist folder we have build
-        
+
 
 ##
 
 ##
+
     parcel (TODO: read documentation)
     1.dev build
     2. hmr (file watching algo)
@@ -86,9 +88,11 @@ npm is the world's largest software registry. Open source developers from every 
     12. Tree shanking - remove unused code
     13. Different dev and prod bundle
     14.
+
 ##
 
 ##
+
 Episode 3
 
     TODO: know more abt babel.
@@ -102,5 +106,14 @@ Episode 3
 
     6. jsx attributes are camelCase like(className)
     7. jsx takes care of cross site scripting as well, beacause jsx sanitizes the data.
-    8. 
+    8.
+
+##
+
+##
+
+EPISODE 4
+config driven ui
+-> website is driven by data i.e. config
+
 ##
