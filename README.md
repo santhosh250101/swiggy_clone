@@ -101,5 +101,6 @@ Episode 3
         i.e jsx->React.createEleemnt()
 
     6. jsx attributes are camelCase like(className)
-    7. 
+    7. jsx takes care of cross site scripting as well, beacause jsx sanitizes the data.
+    8. 
 ##
