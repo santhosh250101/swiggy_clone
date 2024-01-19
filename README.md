@@ -117,3 +117,22 @@ config driven ui
 -> website is driven by data i.e. config
 
 ##
+
+
+## 
+EPISODE 5
+
+    Reconciliation Algorithm (React Fibre)
+        React has virtual dom which is react way of 
+        representation of actual DOM
+
+        DIFF Algo:
+        it finds diff between virtual dom and actual dom
+
+
+        TODO:
+            know abt react reconciliation.
+            know how react fibre works and how it updates the dom optimally.
+
+
+##
