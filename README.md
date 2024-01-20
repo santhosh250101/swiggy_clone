@@ -136,3 +136,24 @@ EPISODE 5
 
 
 ##
+
+##
+EPISODE 06
+
+ load page -> render -> api-> render
+ since render cycles are fast, here 2 renders are
+ acceptable for user experience
+
+ useEffect() hook:
+
+    // called after render
+    useEffect(()=>{
+    console.log('useEffect called')},[]);
+
+
+
+
+    
+
+
+##
