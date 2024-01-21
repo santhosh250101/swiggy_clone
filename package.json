@@ -4,7 +4,7 @@
   "description": "npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.",
   "scripts": {
     "test": "jest",
-    "start" : "parcel index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
   "author": "",
@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3"
   },
   "browserslist": [
     "last 2 versions"

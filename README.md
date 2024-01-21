@@ -145,15 +145,24 @@ EPISODE 06
  acceptable for user experience
 
  useEffect() hook:
+    // if no dependency array => useEffect is called on every render
+    // if dependency array is empty = [] =>useEffect is called only on initial render (once);
 
-    // called after render
-    useEffect(()=>{
-    console.log('useEffect called')},[]);
+    // if any value is provided in array,npm useEffect is called every time the value is updated.
 
+    // never use useEffect or state variales in the consition like if/else, for-loop.
+    // state variables are meant o create at the top level of the components.
 
+##
 
+## 
+EPISODE 07
+    Routing. (react-router-dom)
+    npm i react-router-dom
+
+    2 types of routng in web apps
+        1. client side routing -> we are using here
+        2. server side routing
 
     
-
-
 ##

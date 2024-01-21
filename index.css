@@ -68,3 +68,11 @@
 .filter {
   display: flex;
 }
+
+
+.res-name {
+    font-style: italic;
+    display: block;
+    height: 30px;
+    color: red;
+}
