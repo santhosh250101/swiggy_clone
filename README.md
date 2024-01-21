@@ -166,3 +166,15 @@ EPISODE 07
 
     
 ##
+
+##
+Episode 07
+    1.code splitting
+        Dynamic bundling
+        lazy loading
+        chunking
+        on demand loading
+        dynamic loading
+
+    when an application has larger js bundle we break down it into logical smaller chunks.
+##
