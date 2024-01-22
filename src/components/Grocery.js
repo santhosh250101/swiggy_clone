@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Grocery() {
-  return (
-    <div>Our Grocery online store</div>
-  )
+  return <div>Our Grocery online store</div>;
 }
 
-export default Grocery
+export default Grocery;
