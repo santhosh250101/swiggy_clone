@@ -1,3 +1,4 @@
+import { CDN_URL } from "../utils/constants";
 const styleCard = {
   backgroundColor: "#f0f0f0",
 };
@@ -10,7 +11,7 @@ const RestaurantCard = (props) => {
       <img
         className="rounded-lg h-[200px] w-[250px]"
         src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
+          CDN_URL +
           resData.cloudinaryImageId
         }
         alt="no-img"
