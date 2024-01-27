@@ -178,3 +178,28 @@ Episode 07
 
     when an application has larger js bundle we break down it into logical smaller chunks.
 ##
+
+##
+EPISODE 11
+
+    HigherOrderComponent:
+    =====================
+
+    Higher order component is a function that takes a component and returns a coponent.
+
+    
+
+
+    Controlled and uncontrolled components:
+    =======================================
+
+
+    Lifting the state up:
+    ======================
+
+
+
+
+
+
+##
