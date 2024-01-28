@@ -3,12 +3,15 @@ import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
+import { useContext } from "react";
 const Body = () => {
   const [lisOfRestaurants, setLisOfRestaurants] = useState([]);
   const [filteredRestro, setFilteredRestro] = useState([]);
   const [searchText, setSearchText] = useState("");
-
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   useEffect(() => {
     fetchData();
@@ -62,12 +65,25 @@ const Body = () => {
             Search
           </button>
         </div>
+        <div className="search m-4 p-4">
+          <label className="px-4 py-2 bg-green-100 m-4 rounded-lg">
+            Change Name
+          </label>
+          <input
+            type="text"
+            className="border border-solid border-black p-2"
+            onChange={(e) => {
+              setUserName(e.target.value);
+            }}
+            value={loggedInUser}
+          />
+        </div>
         <div className="search m-4 p-4 flex items-center">
           <button
             className="px-4 py-2 bg-gray-100 rounded-lg"
             onClick={() => {
               filteredRestaurants = lisOfRestaurants.filter(
-                (res) => res.info.avgRating === 4.4
+                (res) => res.info.avgRating === 4.1
               );
               setFilteredRestro(filteredRestaurants);
             }}

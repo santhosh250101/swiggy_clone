@@ -198,8 +198,16 @@ EPISODE 11
     ======================
 
 
+##
 
 
+##
+    Props Drilling
+    ===============
 
+    -> avaoid props drilling via react context.
+    -> context solves problem of props drilling.
+    -> context is something where we store data at global place.
+    
 
 ##
