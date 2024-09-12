@@ -83,3 +83,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # The actual DOM already exists when your React app loads. The virtual DOM is like a lightweight copy of the actual DOM. When something changes in your React components, React first updates the virtual DOM. Then, it compares the virtual DOM with the actual DOM (this process is called “reconciliation”) and updates only the parts of the actual DOM that have changed.
 
 # So, React doesn’t wait for the virtual DOM to be fully created before touching the actual DOM—it updates the actual DOM efficiently based on changes.
+
+
+## 

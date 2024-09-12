@@ -41,17 +41,17 @@ export const Body = () => {
   }
   return (
     <div className="body">
-      <div className="filter">
-        <div className="search">
+      <div className="flex">
+        <div className="search p-4 m-4 flex items-center">
           <input
             type="text"
-            className="search-box"
+            className="border border-solid border-black"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
           />
-          <button
+          <button className="px-4 py-2 bg-green-100 m-4 rounded-lg"
             onClick={() => {
               const filteredListData = listOfRestaurants.filter((res) => {
                 return (
@@ -65,9 +65,8 @@ export const Body = () => {
           >
             Search
           </button>
-        </div>
-        <button
-          className="filter-btn"
+          <button
+          className="px-4 py-2 bg-green-100 m-4 rounded-lg"
           onClick={() => {
             const filteredList = listOfRestaurants.filter(
               (res) => res.info.avgRating >= 4.5
@@ -77,8 +76,9 @@ export const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="res-container flex flex-wrap">
         {filteredRestaurants.map((restaurant) => (
           <Link
             to={"/restaurants/" + restaurant.info.id}

@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
@@ -20,7 +20,6 @@
 }
 
 .res-card {
-  /* height: 350px; */
   width: 200px;
   margin: 5px;
   background-color: #f7f7f7;
@@ -28,8 +27,6 @@
 }
 
 .res-card:hover {
-  /* cursor: pointer;
-  border: 1px solid black; */
 
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -66,4 +63,4 @@
 
 .filter {
   display: flex;
-}
+} */
